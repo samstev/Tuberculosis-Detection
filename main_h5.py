@@ -18,8 +18,8 @@ def predict_image(img, model):
     return prediction
 
 # Streamlit app
-st.title('TB Detection App')
-st.write('Upload an X-ray image for TB detection')
+st.title('Tuberculosis Detection App')
+st.write('Upload an X-ray image for Tuberculosis detection')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 if uploaded_file is not None:
@@ -33,6 +33,6 @@ if uploaded_file is not None:
 
     # Display prediction
     if prediction[0][0] > 0.5:
-        st.write('Prediction: Normal')
+        st.write('Prediction: No Tuberculosis detected')
     else:
         st.write('Prediction: Tuberculosis')
