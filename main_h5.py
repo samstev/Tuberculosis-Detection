@@ -35,4 +35,4 @@ if uploaded_file is not None:
     if prediction[0][0] > 0.5:
         st.write('Prediction: No Tuberculosis detected')
     else:
-        st.write('Prediction: Tuberculosis')
+        st.write('Prediction: Tuberculosis detected')
