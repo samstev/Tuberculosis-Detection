@@ -18,7 +18,7 @@ def predict_image(img, model):
     return prediction
 
 # Streamlit app
-st.title('Tuberculosis Detection App')
+st.title('Sakthi Tuberculosis Detection App')
 st.write('Upload an X-ray image for Tuberculosis detection')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
