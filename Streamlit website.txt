@@ -1,1 +1,1 @@
-https://tb-detection-sakthi.streamlit.app/
+https://tb-detection.streamlit.app/
