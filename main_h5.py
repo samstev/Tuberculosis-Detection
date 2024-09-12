@@ -20,6 +20,7 @@ def predict_image(img, model):
 # Streamlit app
 st.title('Sakthi Tuberculosis Detection App')
 st.write('Upload an X-ray image for Tuberculosis detection')
+st.write('Developed by C.D.Shakthivel, Vth year PharmD, COP-SRIPMS')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 if uploaded_file is not None:
